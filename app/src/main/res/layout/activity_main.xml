@@ -30,6 +30,24 @@
             android:layout_height="wrap_content"
             android:id="@+id/playerWinsTextView" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bankTextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrayTextView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/wagerEditText"
+            android:hint="Enter Wager Here" />
+
         <Button
             android:text="Roll"
             android:layout_width="match_parent"
